@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+  
+.section {
+    padding: 30px;
+}
+  
+.about {
+    padding: 60px 80px;
+    width: 60%;
+    background-color: #f2f2f2;
+}
+
+.header h1{
+    text-decoration: underline;
+}
+  
+.hobbies {
+    padding-top: 80px;
+    width: 40%;
+    background-color: #f2f2f2;
+}
+
+.hobbies ul{
+    list-style-type: none; 
+    line-height: 1.8;
+    font-family: Lobster;
+    font-size: large;
+}
+ 
+.about p {
+    line-height: 1.8;
+    font-family: Lobster;
+    font-size: 20px;
+}
+h1{
+    color:#112D4E;
+    width: 65%;
+    justify-content: left;
+    font-family:Caprasimo;
+    font-weight: lighter;
+}
+
+h1 i{
+    color: #fd0000;
+} 
+nav{
+    margin-top:5px;
+    width:fit-content;
+    padding-right :35px;
+    border-radius: 50px;
+    background:transparent;
+    border: 2px solid #8a99b4;
+}
+.navUl{
+    display: flex;
+    list-style-type: none;   
+}
+.navUl li{
+    padding: 0px 15px;   
+    font-size: 18px; 
+}
+.navUl a{
+    text-decoration: none;
+    color: #fd0000; 
+    font-family: 'Montserrat',sans-serif;
+    font-weight:bold;
+    transition: .5s ease;
+}
+.navUl a:hover{
+    text-decoration:overline;
+    color: #746bfb;
+}
+  
+.header{
+    display: flex;
+    padding-top: 1%;
+}
+
+.footer {
+    background-color: #404040;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    color: #ede7de;
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+.contact-info i{
+    color:#fd0000;
+}
+
+.social-media{
+    padding-right: 150px;
+    
+}
+
+.social-media h2,
+.contact-info h2{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+  
+.social-media a {
+    margin-left: 10px;
+    font-size: larger;
+    transition: .5s ease;
+    color: #d1fdc7;
+}
+.social-media a:hover {
+    color:rgb(0, 201, 0) ;
+}
