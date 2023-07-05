@@ -55,15 +55,15 @@ h1{
     font-size: 1.8rem;
    
 }
-h2{
-    font-size: 3.5rem;
+.front h2{
+    font-size: 2.5rem;
     font-family: 'Montserrat',sans-serif;
     font-weight: normal;
     color: #3e8c8c; 
 }
 .front{
-    background-image: radial-gradient( rgb(141, 160, 255) 0%, rgba(114,208,246,1) 15%, rgba(50,247,250,1) 28%, rgba(181,255,206,1) 44%, rgba(245,248,171,1) 65%, rgb(252, 190, 136) 90%, rgb(255, 197, 197) 100%);
-    background-size: 300%;
+    background-image: linear-gradient(to right, rgb(141, 160, 255) 0%, rgba(114,208,246,1) 15%, rgba(50,247,250,1) 28%, rgba(181,255,206,1) 44%, rgba(245,248,171,1) 65%, rgb(252, 190, 136) 90%, rgb(255, 197, 197) 100%);
+    background-size: 200%;
     animation: bg-animat 10s infinite alternate;
     padding-bottom: 10px;
 }
@@ -98,6 +98,59 @@ h2{
     top:10%;
     height:100px;
     width: 100px  ;
+}
+
+.heading{
+    margin: 0;
+    text-align: center;
+    color:#112D4E;
+    font-size: 2.5rem;
+    font-family:Caprasimo;
+    font-weight: lighter;
+}
+.skills{
+    background-color: rgb(253, 254, 218) ;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.skills-container .skills-box {
+    margin:20px 20px;
+    margin-right: 20px;
+    flex: 2 2 30rem;
+    background:#F7FFE5;
+    padding: 2rem 1rem 3rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid rgb(48, 48, 48);
+    transition: .5s ease;
+    width: fit-content;
+    font-size: small;
+}
+
+.skills-container .skills-box:hover {
+    border-color: black;
+    transform: scale(1.02);
+}
+
+.skills-box i{
+    font-size: 5rem;
+    color: black;
+}
+
+.skills-box h3{
+    font-size: 2.2rem; 
+}
+
+.skills-box p {
+    font-size: 1.3rem;
+    margin: 1rem 0 3rem;
 }
 
 

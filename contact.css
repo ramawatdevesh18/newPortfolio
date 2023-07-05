@@ -1,21 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    background: #F9F7F7;
-    /* background-image: linear-gradient(125deg, rgba(247,251,252,1) 0%, rgba(214,230,242,1) 26%, rgba(174,212,241,1) 61%, rgba(247,251,252,1) 92%); */
-    /* background-image: linear-gradient(125deg, rgba(247,251,252,1) 0%, rgba(214,214,242,1) 28%, rgba(174,241,206,1) 69%, rgba(247,251,252,1) 92%);;
-    background-size: 200%;
-    animation: bg-animat 10s infinite alternate; */
-    
+    background: #fcf9e3;
 }
-@keyframes bg-animat {
-    0%{
-        background-position:left;
-    }
-    100%{
-        background-position: right;
-    }
-}
+
 .container {
     max-width: 500px;
     margin: 0 auto;
