@@ -43,7 +43,7 @@ nav{
     color: #0daeae; 
 }
 
-h1{
+.front h1{
     font-size: 5.925rem;
     margin: 30px auto 0;
     font-family: 'Sacramento',cursive; 
@@ -56,7 +56,7 @@ h1{
    
 }
 .front h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: 'Montserrat',sans-serif;
     font-weight: normal;
     color: #3e8c8c; 
@@ -103,13 +103,17 @@ h1{
 .heading{
     margin: 0;
     text-align: center;
-    color:#112D4E;
-    font-size: 2.5rem;
+    color: #2f4747; 
+    font-size: 3rem;
     font-family:Caprasimo;
     font-weight: lighter;
+    text-decoration: underline;
 }
 .skills{
-    background-color: rgb(253, 254, 218) ;
+    padding-top: 30px;
+    background: linear-gradient(125deg, rgba(242,255,196,1) 11%, rgba(183,255,152,1) 32%, rgba(91,242,223,1) 51%, rgb(125, 255, 216) 71%, rgba(119,210,255,1) 90%);;
+    background-size: 400%;
+    animation: bg-animat 10s infinite alternate;
 }
 
 .skills-container{
@@ -153,4 +157,24 @@ h1{
     margin: 1rem 0 3rem;
 }
 
+
+
+.container {
+    display: flex;
+    justify-content:left;
+    height: 100vh;
+}
+  
+.section1{
+    text-align:left;
+    width: 60%;
+    padding: 60px 80px;
+    background-color: #e43434;
+}
+
+.hobbies {
+    padding-top: 80px;
+    width: 40%;
+    background-color: #569389;
+}
 

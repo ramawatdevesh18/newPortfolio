@@ -17,7 +17,7 @@ body {
 .about {
     padding: 60px 80px;
     width: 60%;
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
 }
 
 .header h1{
@@ -27,7 +27,7 @@ body {
 .hobbies {
     padding-top: 80px;
     width: 40%;
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
 }
 
 .hobbies ul{
@@ -84,6 +84,7 @@ nav{
 .header{
     display: flex;
     padding-top: 1%;
+    background-color: #f2f2f2;
 }
 
 .footer {
